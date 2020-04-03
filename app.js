@@ -87,7 +87,7 @@ app.post('/', (req, res) => {
       doc.font('Helvetica')
          .fillColor("black")
          .fontSize(14)
-         .text(item.id + ":", {
+         .text(item.description + ":", {
            width: 480,
            align: 'left'
          });
